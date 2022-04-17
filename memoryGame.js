@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
         //console.log(selected);
         if (selected[0].firstChild.src === selected[1].firstChild.src) {
             for (let i = 0; i < selected.length; i++) {
-                selected[i].firstChild.style.display = "none";
+                // selected[i].firstChild.style.display = "none";
                 selected[i].removeEventListener('click', flip);
                 matchedItems++;
             }
@@ -68,7 +68,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             this.firstChild.setAttribute('src', images[id]);
         } else {
-            isMatch();
+            setTimeout(isMatch, 1000);
+            //isMatch();
         }
 
 
