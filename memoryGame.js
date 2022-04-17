@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const gameArea = document.querySelector('.gameArea');
-    document.getElementById("title").style.boxShadow = "#" + Math.floor(Math.random() * 16777215).toString(16);
+    document.getElementById("title").style.textShadow = "-8px -8px #" + Math.floor(Math.random() * 16777215).toString(16);
+    document.getElementById("title").style.color = "#" + Math.floor(Math.random() * 16777215).toString(16);
 
     var images = [
         "images/fruit1.jpg",
