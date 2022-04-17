@@ -1,0 +1,42 @@
+body {
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+}
+
+.gameArea {
+    position: relative;
+    width: 1350px;
+    height: 720px;
+    align-self: center;
+    /* left: 20%; */
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.gameArea div {
+    position: relative;
+    background-color: thistle;
+    width: 220px;
+    height: 230px;
+    border-radius: 5%;
+    margin: 1px;
+}
+
+img {
+    margin: auto;
+    border-radius: 5%;
+    margin: 5%;
+}
+
+.title {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    margin: 20px auto;
+    font-size: 200px;
+    margin: auto;
+    position: relative;
+    text-shadow: -12px -12px #FF0000;
+}
